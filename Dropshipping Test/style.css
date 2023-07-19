@@ -1,0 +1,99 @@
+   .body {
+    background-color: lightcoral; 
+    background-image: url("polka.png"); 
+  }
+
+  .h1 {
+    color: white; 
+    font-family: "Montserrat"; 
+    font-size: 100px; 
+    font-weight: bold;
+  }
+
+  .h2 {
+
+  }
+
+  .p {
+    font-size: 25px; 
+    color: white; 
+    font-family: "Karla";
+  }
+
+  .strike {
+
+  }
+
+.button {
+  border: solid; 
+  border-radius: 20px; 
+  transition-duration: 0.4s; 
+  font-size: 25px; 
+  width: 120px; 
+  background-color: transparent; 
+  color: white; 
+  border-color: white; 
+  border-width: thin; 
+  font-family: "Montserrat";
+
+}
+
+.button:hover {
+  background-color: white; 
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Kanit";
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  font-size: 23px;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: transparent;
+  transition: transform .2s;
+  width: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.15em;
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.05em;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 
+    0 0.25em 0 0 black,
+    0 0.5em 0 0 black;
+}
